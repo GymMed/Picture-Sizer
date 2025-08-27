@@ -1,0 +1,21 @@
+{
+	"name": "picture-sizer",
+	"version": "1.0.0",
+	"description": "Resizes pictures your request and positions it on canvas",
+	"main": "server.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [],
+	"author": "GymMed",
+	"license": "ISC",
+	"dependencies": {
+		"connect-sqlite3": "^0.9.16",
+		"dotenv": "^17.2.1",
+		"express": "^5.1.0",
+		"express-session": "^1.18.2",
+		"multer": "^2.0.2",
+		"sharp": "^0.34.3",
+		"sqlite3": "^5.1.7"
+	}
+}
