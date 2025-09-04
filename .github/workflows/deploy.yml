@@ -21,9 +21,12 @@ jobs:
 
             - name: Install dependencies
               uses: bahmutov/npm-install@v1
+              with:
+                  working-directory: frontend
 
             - name: Build project
-              run: cd frontend && npm ci && VITE_BACKEND=false npm run build
+              run: VITE_BACKEND=false npm run build
+              working-directory: frontend
 
             - name: Upload production-ready build files
               uses: actions/upload-artifact@v4
