@@ -3,6 +3,7 @@ const session = require("express-session");
 const SQLiteStore = require("connect-sqlite3")(session);
 const messageHandler = require("./middlewares/message");
 
+require("./cron-jobs");
 //const pagesRouter = require("../routes/pages");
 // const postRoutes
 

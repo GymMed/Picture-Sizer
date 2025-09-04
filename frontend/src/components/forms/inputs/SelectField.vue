@@ -23,6 +23,7 @@ defineEmits(["update:modelValue"]);
                 v-for="option in options"
                 :key="option.value"
                 :value="option.value"
+                class="text-gray-900"
             >
                 {{ option.label }}
             </option>
