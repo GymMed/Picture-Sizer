@@ -13,7 +13,7 @@ const modalStore = useModalStore();
             v-if="modalStore.data.image"
             :src="modalStore.data.image"
             alt="Preview"
-            class="rounded shadow bg-white"
+            class="w-min rounded shadow bg-white"
         />
         <p v-else>No image selected</p>
     </div>

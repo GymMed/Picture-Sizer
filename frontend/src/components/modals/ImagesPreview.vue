@@ -39,7 +39,7 @@ watch(
                     "
                     :src="modalStore.data.images[selectedImage]"
                     alt="Preview"
-                    class="rounded shadow bg-white"
+                    class="w-min rounded shadow bg-white"
                 />
             </div>
             <div
