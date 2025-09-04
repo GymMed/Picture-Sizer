@@ -3,9 +3,8 @@
 </h1>
 <br/>
 <div align="center">
-  <!-- <img src="https://img.shields.io/badge/⚙%20Routers%20count-%2048%20Best%20Practices-blue.svg" alt="48 items"/>  -->
-  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20September%20042C%202025-green.svg" alt="Last update: September 4, 2025" /> 
-  <img src="https://img.shields.io/badge/ %E2%9C%94%20Version%20-%200.0.1-brightgreen.svg" alt="Version 0.0.1"/>
+  <img id="last-update-badge" src="https://img.shields.io/badge/%F0%9F%93%85%20Last%20update%20-%20September%2005%202025-green.svg" alt="Last update: September 5, 2025" /> 
+  <img src="https://img.shields.io/badge/version-0.0.1-blue" alt="Version 0.0.1"/>
 </div>
 
 <div align="center">
@@ -13,6 +12,8 @@
 </div>
 
 ## Welcome!
+
+-   [View frontend side of the project online](https://gymmed.github.io/Picture-Sizer)
 
 ### Description
 
